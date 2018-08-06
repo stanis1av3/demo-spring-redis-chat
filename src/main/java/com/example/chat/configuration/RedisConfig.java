@@ -14,6 +14,7 @@ import org.springframework.data.redis.serializer.JdkSerializationRedisSerializer
 @Configuration
 public class RedisConfig {
 
+
     @Bean
     JedisConnectionFactory jedisConnectionFactory() {
         JedisConnectionFactory jedisConFactory
